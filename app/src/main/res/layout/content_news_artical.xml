@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kohinoor.sandy.kohinnor.Activities.NewsArticalActivity"
+    tools:showIn="@layout/activity_news_artical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:id="@+id/imageName"/>
+
+    <TextView
+        android:id="@+id/articalHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:fontFamily="@font/droidserif_regular"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Date"
+        android:id="@+id/articalDate"/>
+
+    <TextView
+        android:id="@+id/artical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:alpha="0.8"
+        android:fontFamily="@font/droidserif_regular"
+        android:text="This Article Body"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,152 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kohinoor.sandy.kohinnor.Fragments.AboutusFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:background="@color/commanPrimary">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KOHINOOR"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/White"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="संपर्क"
+            android:id="@+id/about"
+            android:layout_marginTop="110dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:background="@color/ActionBar"
+            android:textColor="@color/White"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/mobnumber"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_call"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Black"
+                android:id="@+id/mobnumbertext"
+                android:text="+91-9665017503"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/email"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_email"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Black"
+                android:id="@+id/emailtext"
+                android:text="kanguleram88@gmail.com"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/address"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_location"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Black"
+                android:id="@+id/addresstext"
+                android:text="बंडे काम्प्लेक्स, संजीवनी ज्यूस सेंटर जवळ, वसमत रोड, परभणी"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_fb_round"
+            android:id="@+id/fb"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_tele_round"
+                android:id="@+id/tele"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/youtube"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_youtube_round"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

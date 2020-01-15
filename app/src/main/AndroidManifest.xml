@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kohinoor.sandy.kohinnor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".CustomClasses.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app_logo"
+        android:label="Kohinoor"
+        android:roundIcon="@drawable/ic_app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.HomeActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.SignupActivity"
+            android:label="SignupActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.AdminActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.NewsArticalActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.EditeProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Activities.StudyDataActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.StudyDataSelectorActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.AdminMainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            >
+        </activity>
+        <activity
+            android:name=".Activities.UploadArticalActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.UploadPdfActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.UploadQpaperActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.ImpArticleActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.ArticleListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.CourseDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.TODODeleteActivity" />
+        <activity
+            android:name=".Activities.QuizActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.QuizListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBarSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".CustomClasses.ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".Services.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Services.FireBaseDataChangeNotificationService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".Activities.AllNewsActivity"
+            android:label="@string/title_activity_all_news"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Activities.GoogleAdds"
+            android:label="@string/title_activity_google_adds"></activity> <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+    </application>
+
+</manifest>

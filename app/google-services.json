@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "299673221206",
+    "firebase_url": "https://kohinnor-a6aba.firebaseio.com",
+    "project_id": "kohinnor-a6aba",
+    "storage_bucket": "kohinnor-a6aba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299673221206:android:3a18b3b6fcb0c1d1",
+        "android_client_info": {
+          "package_name": "com.kohinoor.sandy.kohinnor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299673221206-pio2m00ju466hsoh0tio9bhcqb84o1pb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kohinoor.sandy.kohinnor",
+            "certificate_hash": "5f8e414af455a945083045b8110729b2795fc36e"
+          }
+        },
+        {
+          "client_id": "299673221206-hoo23ur7le0st1vsins6jolsq25tdadf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHdz7q5BIUeVZjHdUByzSbxUr4VP2akm8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299673221206-hoo23ur7le0st1vsins6jolsq25tdadf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

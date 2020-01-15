@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:kohinoor="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:title="S"
+        android:id="@+id/spinner2"
+        kohinoor:showAsAction="ifRoom"
+        kohinoor:actionViewClass="android.widget.Spinner"
+        />
+
+    <item android:title="S"
+        android:id="@+id/spinner1"
+        kohinoor:showAsAction="ifRoom"
+        kohinoor:actionViewClass="android.widget.Spinner" />
+
+</menu>

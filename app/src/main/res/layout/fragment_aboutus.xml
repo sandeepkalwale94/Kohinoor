@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kohinoor.sandy.kohinnor.Fragments.AboutusFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:background="@color/commanPrimary">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KOHINOOR"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/White"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="आमच्याविषयी"
+        android:id="@+id/about"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:background="@color/ActionBar"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/aboutustext"
+        android:textColor="@color/Black"
+        android:text="@string/AboutUsText"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:padding="5dp"/>
+
+    </LinearLayout>
+</FrameLayout>

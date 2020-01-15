@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/commanTernary"
+    android:weightSum="20"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:name="com.kohinoor.sandy.kohinnor.Fragments.HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="LinearLayoutManager"
+        android:background="@color/commanTernary"
+        tools:context="com.kohinoor.sandy.kohinnor.Fragments.HomeFragment"
+        tools:listitem="@layout/fragment_home"
+        android:layout_weight="19"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show All"
+        android:layout_margin="5dp"
+        android:id="@+id/showall"
+        android:textColor="@color/White"
+        android:background="#f79f24"
+        android:layout_weight="1"/>
+
+</LinearLayout>

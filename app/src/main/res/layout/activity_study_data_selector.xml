@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#061C2A"
+    tools:context="com.kohinoor.sandy.kohinnor.Activities.StudyDataSelectorActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/ActionBar"
+            app:layout_collapseMode="pin"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+    <!--5 Quetions and PDF Notes-->
+    <ImageView
+        android:id="@+id/item_1_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/app_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:padding="1dp"
+        android:src="@mipmap/ic_default_image"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:id="@+id/item_1_text"
+        android:layout_below="@+id/item_1_image"
+        android:textColor="#fff"/>
+
+    <!--10 Quetions and PDF Quetion Papers-->
+    <ImageView
+        android:id="@+id/item_2_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/item_1_text"
+        android:layout_centerHorizontal="true"
+        android:padding="1dp"
+        android:src="@mipmap/ic_default_image"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:id="@+id/item_2_text"
+        android:layout_below="@+id/item_2_image"
+        android:textColor="#fff"
+        />
+
+    <!--20 Quetions and PDF Books-->
+    <ImageView
+        android:id="@+id/item_3_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/item_2_image"
+        android:layout_alignStart="@+id/item_2_image"
+        android:layout_below="@+id/item_2_text"
+        android:padding="1dp"
+        android:src="@mipmap/ic_default_image"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:id="@+id/item_3_text"
+        android:layout_below="@+id/item_3_image"
+        android:textColor="#fff"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_menu_home"
+            android:iconTint="@color/ActionBar"
+            android:title="Home"
+
+            />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/ic_menu_profile"
+            android:title="प्रोफाइल"
+            android:iconTint="@color/WhatsupColor"/>
+        <!--<item
+            android:id="@+id/nav_downloads"
+            android:icon="@mipmap/ic_menu_download"
+            android:title="Downloads" />-->
+        <item
+        android:id="@+id/nav_study"
+        android:icon="@mipmap/ic_menu_study"
+        android:title="अभ्यास साहित्य" />
+        <item
+            android:id="@+id/nav_imp_articles"
+            android:icon="@mipmap/ic_articles"
+            android:title="महत्वाचे लेख" />
+        <item
+        android:id="@+id/nav_course"
+        android:icon="@mipmap/ic_menu_course"
+        android:title="अभ्यासक्रम" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@mipmap/ic_menu_test"
+            android:title="सराव प्रश्नपत्रिका" />
+    </group>
+
+    <item android:title="संपर्क">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="सामायिक करा" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@mipmap/ic_menu_phone"
+                android:title="आमच्याशी संपर्क साधा" />
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@mipmap/ic_menu_info"
+                android:title="आमच्याविषयी" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@mipmap/ic_menu_logout"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>

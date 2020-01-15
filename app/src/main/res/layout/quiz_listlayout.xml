@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grid_view_items"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#152C3B"
+    android:weightSum="2"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/QuizNumber"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:text="Course Title"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/QuetionCount"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:gravity="right"
+        android:text="Course Data"
+        android:textSize="20dp"
+        android:textColor="@color/White" />
+</LinearLayout>

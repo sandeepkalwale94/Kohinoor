@@ -1,0 +1,39 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:background="#495f77"
+    android:layout_margin="20dp"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/rv_header_Icon"
+        android:layout_width="50dp"
+        android:layout_height="56dp"
+        android:textColor="@color/White"
+        android:textSize="25sp"
+        android:background="#8E44AD"
+        android:gravity="center"
+        android:text="1"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/rv_header_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team"
+        android:padding="10dp"
+        android:textColor="@color/White"
+        android:layout_weight="4"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!--<ImageView
+        android:id="@+id/rv_dropdown"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_weight="1"
+        android:src="@mipmap/ic_dropdown" />
+-->
+</LinearLayout>

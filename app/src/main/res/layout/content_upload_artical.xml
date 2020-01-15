@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kohinoor.sandy.kohinnor.Activities.UploadArticalActivity"
+    tools:showIn="@layout/activity_upload_artical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UplaodArtical"
+        android:id="@+id/article_title"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:text="UplaodArtical"
+        android:gravity="top"
+        android:id="@+id/artical_body"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit_article"/>
+</LinearLayout>

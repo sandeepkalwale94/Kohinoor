@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre_medium</item>
+        <item>@font/alike</item>
+        <item>@font/amatic_sc</item>
+        <item>@font/amiko</item>
+        <item>@font/antic_slab</item>
+        <item>@font/asap_italic</item>
+        <item>@font/asap_medium</item>
+        <item>@font/assistant</item>
+        <item>@font/bree_serif</item>
+        <item>@font/coda</item>
+        <item>@font/comfortaa</item>
+        <item>@font/cutive_mono</item>
+        <item>@font/droid_sans_mono</item>
+        <item>@font/merriweather_italic</item>
+        <item>@font/merriweather_sans</item>
+    </array>
+</resources>

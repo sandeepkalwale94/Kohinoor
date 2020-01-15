@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:background="@color/commanPrimary">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/ActionBar"
+            app:layout_collapseMode="pin"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+    <Button
+        android:id="@+id/upload_news"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/LightGrey"
+        android:padding="5dp"
+        android:text="Upload News"
+        android:textColor="@color/Black" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Upload Study Material"
+        android:textColor="@color/Black"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/upload_pdf"
+        android:background="@color/LightGrey"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Upload QPaper"
+        android:textColor="@color/Black"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/upload_qpaper"
+        android:background="@color/LightGrey"/>
+
+        <!--<Button
+            android:id="@+id/upload_articals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#E93FE4"
+            android:padding="5dp"
+            android:text="Upload Artical"
+            android:textColor="#fff" />-->
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:backgroundTint="@color/ActionBar"
+            app:fabSize="auto"
+            app:rippleColor="@color/White"
+            app:srcCompat="@mipmap/ic_add" />
+
+    </LinearLayout>
+
+</LinearLayout>

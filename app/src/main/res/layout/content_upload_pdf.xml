@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/commanPrimary"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kohinoor.sandy.kohinnor.Activities.UploadPdfActivity"
+    tools:showIn="@layout/activity_upload_pdf">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/bg_spinner"
+            >
+        <Spinner
+            style="@style/Widget.AppCompat.DropDownItem.Spinner"
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/MaterialType"
+            android:padding="5dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            android:prompt="@string/material_prompt"/>
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/bg_spinner"
+            >
+            <Spinner
+                style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                android:padding="5dp"
+                android:entries="@array/notesQpaper"
+                android:prompt="@string/notes_prompt" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/bg_spinner"
+            >
+            <Spinner
+                style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                android:padding="5dp"
+                android:entries="@array/coursewiseMaterial"
+                android:prompt="@string/course_prompt" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/pdf_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/selectfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Select File"/>
+
+            <TextView
+                android:id="@+id/filename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="filename"
+                android:textColor="#fff"/>
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/article_layout"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Article Title"
+                    android:textColor="#fff"
+                    android:textColorHint="#C1C4C6"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/article_title"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:hint="Enter Article"
+                    android:textColor="#fff"
+                    android:textColorHint="#C1C4C6"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="top"
+                    android:id="@+id/artical_body"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Submit" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/StatusBarColor</item>
+    </style>
+    <style name="AppTheme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/StatusBarColor</item>
+    </style>
+    <style name="AppTheme.NoActionBarSplash">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

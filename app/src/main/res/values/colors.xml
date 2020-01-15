@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="commanPrimary">#061C2A</color>
+    <color name="commanSecondary">#152C3B</color>
+    <color name="commanTernary">#152C3B</color>
+    <color name="Blue">#1D34DD</color>
+    <color name="WhatsupColor">#369A92</color>
+    <color name="Black">#000</color>
+    <color name="White">#fff</color>
+    <color name="LightGrey">#BAC2C1</color>
+    <color name="Green">#93C43D</color>
+    <color name="Red">#EA0820</color>
+    <color name="LightRed">#E9803F</color>
+    <color name="StatusBarColor">#5C0D7F</color>
+    <color name="ActionBar">#604b89</color>
+    <color name="DarkGrey">#827F7F</color>
+</resources>

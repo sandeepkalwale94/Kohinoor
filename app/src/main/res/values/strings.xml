@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Kohinnor</string>
+    !-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confpassword">Confirm Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_up">Signup</string>
+    <string name="invalid_email">This email address is invalid</string>
+    <string name="invalid_password">Password is too short</string>
+    <string name="incorrect_password">Password is incorrect</string>
+    <string name="field_required">This field is required</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_news_artical">NewsArticalActivity</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_upload_artical">Kohinoor</string>
+    <string name="title_activity_upload_pdf">Kohinoor</string>
+    <string name="title_activity_upload_qpaper">Kohinoor</string>
+
+    <string name="course_prompt">Choose a Course</string>
+
+    <string name="subject_prompt">Choose a Subject</string>
+
+    <string name="material_prompt">Choose a Material Type</string>
+
+    <string name="notes_prompt">Choose a Notes Type</string>
+
+    <string-array name="coursewiseMaterial">
+        <item>पोलीस उपनिरीक्षक</item>
+        <item>पोलिस भरती</item>
+        <item>विक्रीकर निरीक्षक</item>
+        <item>सहाय्यक</item>
+        <item>महाराष्ट्र कृषी सेवा</item>
+        <item>राज्यसेवा</item>
+
+    </string-array>
+
+    <string-array name="SubjectwiseMaterial">
+        <item>मराठी</item>
+        <item>English</item>
+        <item>इतिहास</item>
+        <item>भुगोल</item>
+        <item>राज्यशास्त्र</item>
+        <item>सामान्य विज्ञान</item>
+
+        <item>गणित</item>
+        <item>बुधिमता</item>
+        <item>संगनक</item>
+
+    </string-array>
+
+    <string-array name="MaterialType">
+        <item>अभ्यासक्रमानुसार</item>
+        <item>विषयानुसार</item>
+
+    </string-array>
+
+    <string-array name="notesQpaper">
+        <item>PDF Notes</item>
+        <item>प्रश्नसंच</item>
+        <item>महत्वाचे लेख</item>
+
+    </string-array>
+    <string name="title_activity_imp_article">Kohinoor</string>
+    <string name="title_activity_article_list">Kohinoor</string>
+
+    <!-- About Us Fragment Text-->
+
+    <string name="AboutUsText">सरकारी नोकरीची 100% हामी देणारी महाराष्ट्रातील अग्रगण्य कोहिनूर करिअर अकँडमी वसमत रोड परभनी.
+        आगामी MPSC/ PSI / STI / ASST / TAX ASO पूर्व +मुख्य + मुलाखत पोलिस भरती/सैन्य भारती/ SRPF/ CRPF/ SSB/ BSF फिजिकल व लेखी परिक्षेची परिपूर्ण  तयारी करण्यासाठी आगदी माफक फी मध्ये प्रशिक्षण वर्ग शुरू होत असुन आपला प्रवेश निश्चित करण्यासाठी</string>
+
+    <!--Contact Fragment Text-->
+    <string name="ContactText">कोहिनूर करिअर अकँडमी  संजीवनी जूस सेंटर जवळ आनंद नगर कॉर्नर वसमत रोड परभनी</string>
+    <string name="MobileNumber">मो -9665017503</string>
+    <string name="Email">kanguleram88@gmail.com</string>
+    <!-- Course List related Strings -->
+
+    <string name="PSI_H">पोलीस उपनिरीक्षक</string>
+    <string name="STI_H">विक्रीकर निरीक्षक</string>
+    <string name="Assistant_H">सहाय्यक</string>
+    <string name="MPSC_H">राज्यसेवा</string>
+    <string name="Agri_H">महाराष्ट्र कृषी सेवा</string>
+    <string name="Police_H">पोलिस भरती</string>
+
+    <string name="PSI_C">पोलीस उपनिरीक्षक</string>
+    <string name="STI_C">विक्रीकर निरीक्षक</string>
+    <string name="Assistant_C">सहाय्यक</string>
+    <string name="MPSC_C">राज्यसेवा</string>
+    <string name="Agri_C">महाराष्ट्र कृषी सेवा</string>
+    <string name="Police_C">पोलिस भरती</string>
+
+    <string name="Marathi">मराठी</string>
+    <string name="English">English</string>
+    <string name="History">इतिहास</string>
+    <string name="Geography">भुगोल</string>
+    <string name="Politics">राज्यशास्त्र</string>
+    <string name="Science">सामान्य विज्ञान</string>
+
+    <string name="Math">गणित</string>
+    <string name="Apti">बुधिमता</string>
+    <string name="Computer">संगनक</string>
+
+    <string name="Course_wise_material">अभ्यासक्रमानुसार</string>
+    <string name="Subject_wise_material">विषयानुसार</string>
+    <string name="StudyMaterial">अभ्यास साहित्य</string>
+    <string name="PDFNotes">PDF Notes</string>
+    <string name="QuetionSet">प्रश्नसंच</string>
+    <string name="ImportantArticles">महत्वाचे लेख</string>
+
+    <string name="CurrentAffairs">चालू घडामोडी</string>
+    <string name="Profile">प्रोफाइल</string>
+    <string name="Downloads">Downloads</string>
+    <string name="Courses">अभ्यासक्रम</string>
+    <string name="Contact">संपर्क</string>
+    <string name="AboutUs">आमच्याविषयी</string>
+    <string name="UploadDatabase">अपलोड डेटाबेस</string>
+    <string name="UploadCurrentAffairs">अपलोड चालू घडामोडी</string>
+    <string name="PracticeQuiz">सराव प्रश्नपत्रिका</string>
+
+
+    <string name="FromWhere">FromWhere</string>
+    <string name="Quetiones">प्रश्न</string>
+    <string name="Books">पुस्तके</string>
+
+    //Years
+    <string name="Y2018">2018</string>
+    <string name="Y2019">2019</string>
+
+    //Months
+    <string name="Jan">जानेवारी</string>
+    <string name="Feb">फेब्रुवारी</string>
+    <string name="March">मार्च</string>
+    <string name="April">एप्रिल</string>
+    <string name="May">मे</string>
+    <string name="June">जून</string>
+    <string name="Jully">जुलै</string>
+    <string name="Aug">ऑगस्ट</string>
+    <string name="Sept">सप्टेंबर</string>
+    <string name="Oct">ऑक्टोबर</string>
+    <string name="Nov">नोव्हेंबर</string>
+    <string name="Dec">डिसेंबर</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_course_details">CourseDetailsActivity</string>
+
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="title_activity_quiz_list">Kohinoor</string>
+    <string name="title_activity_all_news">AllNewsActivity</string>
+    <string name="title_activity_google_adds">GoogleAdds</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-6948039257361234/6216560198</string>
+    <string name="video_ad_id">ca-app-pub-6948039257361234/1062884985</string>
+
+
+</resources>
