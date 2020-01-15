@@ -252,7 +252,7 @@ public class AdminActivity extends AppCompatActivity implements ConnectivityRece
                 // Get the url from data
                 Uri file = data.getData();
                // String filepath;
-			   
+			   //String
                 String fileNameString;
 
 
